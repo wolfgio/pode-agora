@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded', function() {
-   document.getElementById('body').style.display = 'none';
+   document.getElementById('loading').style.display = 'none';
 });

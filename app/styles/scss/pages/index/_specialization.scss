@@ -1,0 +1,34 @@
+@import '../../config/_variables';
+
+.specialization {
+  h3 {
+    color: $primary-color;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 25px;
+  }
+  ul {
+    list-style: none;
+    li {
+      padding: 8px;
+      background: url('../../../../images/femenine.svg') no-repeat;
+      background-position: 20px;
+      padding-left: 40px;
+      a {
+        text-decoration: none;
+        color:$primary-color;
+      }
+    }
+    li:hover {
+      background: $primary-color url('../../../../images/femenine.svg') no-repeat;
+      a {
+        color: $text-primary-color;
+      }
+    }
+    .kids-services {
+      a {
+        color: $third-color;
+      }
+    }
+  }
+}

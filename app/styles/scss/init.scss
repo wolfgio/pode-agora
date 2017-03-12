@@ -8,10 +8,13 @@
 @import 'general/_reset';
 @import 'general/_normalize';
 @import 'general/_common';
-@import 'general/_pace';
+@import 'general/_loading';
 @import 'layout/_main';
 
 //pages
+@import 'pages/index/_banner';
+@import 'pages/index/_content';
+@import 'pages/index/_specialization';
 
 //animations
 @import 'animations/_animations';
