@@ -10,12 +10,14 @@
         <link rel="stylesheet" href="styles/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     </head>
-    <body id='body'>
+    <body id='body' style="background: #A3E4BE;">
         @@include('./views/shared/loading.html')
         @@include('./views/shared/header.html')
-        @@include('./views/pages/index/banner.html')
-        @@include('./views/pages/index/content.html')
-        @@include('./views/pages/index/specialization.html')
+        <div class="service container">
+            @@include('./views/pages/services/description.html')
+            @@include('./views/pages/services/cards.html')
+        </div>
         <script src="scripts/app.js"></script>
     </body>
 </html>
+
