@@ -29,6 +29,11 @@
       a {
         color: $third-color;
       }
+      label {
+        color: $secondary-color;
+        padding-left: 10px;
+        font-size: 13px;
+      }
     }
   }
 }
