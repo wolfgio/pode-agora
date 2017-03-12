@@ -1,0 +1,48 @@
+@import '../config/_variables';
+
+.main-header {
+  width: 100%;
+  background: #FAFAFA;
+  -webkit-animation-duration: 2.5s;
+  animation-duration: 2.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  > .container {
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+  }
+}
+
+.menu {
+  list-style: none;
+  padding: 10px 0px;
+  > li {
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 20px;
+    > a {
+      color: $primary-color;
+      text-decoration: none !important;
+      padding-bottom: 22px;
+      border-bottom: 3px solid transparent;
+      transition: all .2s ease-in;
+    }
+    a:hover {
+      border-bottom: solid 3px $secondary-color;
+    }
+    .active {
+      border-bottom: solid 3px $secondary-color;
+    }
+    .kids {
+      color: $third-color;
+    }
+  }
+}
+
+.logo {
+  padding: 15px 0px 5px 15px;
+  width: 80px;
+  height: 32px;
+}
