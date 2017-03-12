@@ -7,3 +7,9 @@ window.addEventListener('scroll', function () {
     }
   }
 });
+
+function login() {
+  var usr = document.getElementById('usr').value;
+  var pwd = document.getElementById('pwd').value;
+  return (usr === 'agorapode' && pwd === "123")
+}
