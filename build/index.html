@@ -23,17 +23,18 @@
     </a>
     <ul class="menu">
       <li><a href="/views/pages/services.html">Serviços</a></li>
-      <li><a href="/views/pages/servicesHistory.html">Minha Agenda</a></li>
+      <li><a href="./agendamento.html">Minha Agenda</a></li>
       <li><a href="/views/pages/faq.html">Dúvidas?</a></li>
     </ul>
   </div>
 </header>
+
         <div class="banner">
   <div class="wrapper">
     <h1>Seu médico a poucos cliques</h1>
     <label>
-      <form action="./login.html">
-        <button type="submit">
+      <form action="./services.html">
+        <button onclick="scrollToLista(event);" type="submit">
           agendar consulta
         </button>
       </form>
@@ -61,10 +62,10 @@
     </p>
   </section>
 </div>
-        <div class="specialization container">
+        <div class="specialization container" id='services' name="services">
   <h3>NOSSAS ESPECIALIDADES</h3>
   <ul>
-    
+
     <li><a href="./services.html">CARDIOLOGIA</a></li>
     <li><a href="./services.html">GINECOLOGIA</a></li>
     <li><a href="./services.html">OBSTETRICIA</a></li>
@@ -82,6 +83,8 @@
     <li class="kids-services"><a href="./services.html">ONCOLOGIA</a><label>kids</label></li>
   </ul>
 </div>
+
         <script src="scripts/app.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     </body>
 </html>

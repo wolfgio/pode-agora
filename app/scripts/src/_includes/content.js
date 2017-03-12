@@ -13,3 +13,12 @@ function login() {
   var pwd = document.getElementById('pwd').value;
   return (usr === 'agorapode' && pwd === "123")
 }
+
+function irAgendamento(agendamento) {
+  window.location.href='./cadastro.html'
+}
+
+function scrollToLista(e){
+  e.preventDefault();
+  window.location.href="#services";
+}
